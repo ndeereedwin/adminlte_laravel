@@ -29,37 +29,63 @@ You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+# laravel Adminlte
+Laravel with Admin-lte template 
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+The following tools are required in order to start the installation.
 
-### Premium Partners
+- PHP >=8.1
+- composer
+- npm
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## Features
 
-## Contributing
+- Authenication
+- Registration
+- Forgot Password
+  
+## Installation 
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+install Larvel Adminlte
 
-## Code of Conduct
+```bash 
+  git clone https://github.com/ndeereedwin/adminlte_laravel.git
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+  composer install
 
-## Security Vulnerabilities
+  create database
+  cp .env.example .env
+  php artisan key:generate
+  php artisan migrate
+  
+  npm install
+  npm run dev / npm run build
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+```
+
+## Demo
+
+Welcome Page
+![welcome](https://user-images.githubusercontent.com/26022397/136955281-235a828a-4d6a-4b8d-be47-482b571f39a4.PNG)
+
+Login Page
+![login](https://user-images.githubusercontent.com/26022397/136955326-6d4164aa-fb1c-429f-b11e-99355a59ec18.PNG)
+
+Forgot Password
+![forgot-password](https://user-images.githubusercontent.com/26022397/136955365-4748ae99-9fd9-4444-9821-121033f1fffd.PNG)
+
+Reset Password
+![password reset](https://user-images.githubusercontent.com/26022397/136971913-9671714f-26eb-490a-b18f-26e1254e5436.PNG)
+
+Register Page
+![register](https://user-images.githubusercontent.com/26022397/136955460-81950a7e-0c26-4e7d-a411-7696a761b87f.PNG)
+
+Dashboard Page
+![dashboard](https://user-images.githubusercontent.com/26022397/136955497-68f9c066-3f2a-4910-99fd-01e5014905a0.PNG)
+
+Logout
+![logout](https://user-images.githubusercontent.com/26022397/136955780-590fdfb3-26d7-408b-98b5-168969120558.PNG)
+
 
 ## License
 
