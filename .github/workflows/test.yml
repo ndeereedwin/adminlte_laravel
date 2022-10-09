@@ -28,6 +28,10 @@ jobs:
       run: |
         mkdir -p database
         touch database/database.sqlite
+    - name: Node Packages Installation
+      run: npm run install
+    - name: Start Node Dependencies   
+      run: npm run dev
     - name: Execute tests (Unit and Feature tests) via PHPUnit
       env:
         DB_CONNECTION: sqlite
